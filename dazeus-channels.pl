@@ -148,7 +148,7 @@ sub cmd_autojoin {
 		autojoin_now($dazeus, $network);
 		reply("Done.", $network, $sender, $channel);
 	} else {
-		reply("Usage: autojoin <add|rm|del|get|now> [...]");
+		reply("Usage: autojoin <add|rm|del|get|now> [...]", $network, $sender, $channel);
 	}
 }
 
